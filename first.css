@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+}
+
+.container {
+    border-style: solid;
+    border-color: antiquewhite;
+    width: 890px;
+}
+
+.logo {
+    padding-left: 1.5rem;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    height: 500px;
+    margin-left: 8px;
+
+}
+
+p {
+    font-size: 10px;
+    color: brown;
+}
+
+.nav {
+    background-color: wheat;
+    display: block;
+    display: flex;
+    height: 100px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    height: 69px
+}
+
+p {
+    padding-left: 52px;
+}
+
+.image {
+    padding-left: 90px;
+}
+
+.image ul {
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.image_container {
+    display: inline;
+    display: flex;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 30px;
+    font-size: small;
+    padding: 7px 0;
+}
+
+.nav2 {
+    background-color: aqua;
+
+    text-align: center;
+    box-shadow: 0, 0, 0, 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.nav2 ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    justify-items: space-between;
+    font-style: normal;
+    font-size: small;
+    justify-content: left;
+}
+
+ul li a:hover {
+    color: rgb(198, 18, 204);
+}
+
+.container3 {
+    padding-left: 5px;
+    display: block;
+    display: flex;
+    padding: 25px;
+
+}
+
+.table a {
+    color: #00afef;
+    font-size: 15px;
+
+}
+
+.table ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul a {
+    padding: 19px 22px;
+    justify-content: space-between;
+    justify-items: space-between;
+}
+
+.table p {
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+.bg_clr1 {
+    background-color: rgb(207, 83, 207);
+    width: 890px;
+    margin-top: 12px;
+
+
+
+}
+
+.animation {
+    margin: auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background: #eff2f3;
+}
+
+.slide_container {
+    display: flex;
+    animation: scroll 20s linear infinite;
+
+}
+
+.slider_image {
+    padding: 5px;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(calc(-200px*10));
+    }
+}
+
+.std {
+
+    display: flex;
+    display: inline;
+}
